@@ -1,6 +1,6 @@
 persistence:
   enabled: true
-  storageClass: "standard"
+  storageClass: "nfs"
   size: 200Gi
 
 storageClass:
