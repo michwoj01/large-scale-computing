@@ -1,7 +1,7 @@
 persistence:
   enabled: true
   storageClass: "nfs"
-  size: 200Gi
+  size: 5Gi
 
 storageClass:
   defaultClass: true
