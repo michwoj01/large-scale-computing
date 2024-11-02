@@ -1,7 +1,3 @@
-persistence:
-  enabled: true
-  storageClass: "nfs"
-  size: 5Gi
-
 storageClass:
   defaultClass: true
+  name: nfs

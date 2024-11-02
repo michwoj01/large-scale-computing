@@ -12,7 +12,7 @@ chmod 700 get_helm.sh
 ./get_helm.sh
 
 helm repo add nfs-ganesha-server-and-external-provisioner https://kubernetes-sigs.github.io/nfs-ganesha-server-and-external-provisioner/
-helm install nfs-server-provisioner nfs-ganesha-server-and-external-provisioner/nfs-server-provisioner -f ./nfs-values.yaml   --set nfs.server=<EFS_ENDPOINT> --set nfs.path=/
+helm install nfs-server-provisioner nfs-ganesha-server-and-external-provisioner/nfs-server-provisioner -f ./nfs-values.yaml
 
 kubectl apply -f ./files/pvc.yaml
 kubectl apply -f ./files/deployment.yaml
